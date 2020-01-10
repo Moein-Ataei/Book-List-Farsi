@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Far.Nazanin';
+    src: url('FarNazanin.woff2') format('woff2'),
+        url('FarNazanin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    direction: rtl;
+    background: #6714db;
+    font-family: 'Far.Nazanin';
+    color: #fff;
+    font-size: 24px;
+}
+
+.success, .error {
+    color: #FFF;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+}
+
+.success {
+    background: #00ff00; 
+}
+
+.error {
+    background: #ff0000; 
+}
+
+table td, table th {
+    text-align: center;
+}
+
+input[type='submit'] {
+    color: #fff;
+    background: #14b7db;
+    font-family: 'Far.Nazanin';
+    font-size: 1.2rem;
+}
